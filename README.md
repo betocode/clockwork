@@ -3,9 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 You are going to need to set up the following environment variables
-1.API_URL - base api url
-2.API_KEY - your api key
-3.API_TOKEN - your api token
+- 1.API_URL - base api url
+- 2.API_KEY - your api key
+- 3.API_TOKEN - your api token
 
 After setting up the variables run `npm install` to install all dependencies
 
