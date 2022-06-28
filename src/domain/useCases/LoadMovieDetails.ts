@@ -1,5 +1,5 @@
 import { IMovieRepository } from "../interfaces/repositories/IMovieRepository";
-import { MovieModel } from "../models";
+import { MovieType } from "../models";
 
 export default class LoadMovieDetails{
     /**
@@ -8,8 +8,8 @@ export default class LoadMovieDetails{
     constructor(private readonly repository:IMovieRepository) {
         
     }
-    async handle():Promise<MovieModel[]>{
-        const response:MovieModel[] = []
+    async handle():Promise<MovieType[]>{
+        const response:MovieType[] = []
          return response;
     }
 }

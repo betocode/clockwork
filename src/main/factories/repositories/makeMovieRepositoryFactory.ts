@@ -4,5 +4,5 @@ import { makeApiUrl, makeHttpClient } from "../http";
 
 export const makeMovieRepository = (): IMovieRepository => {
 
-    return new MovieRepository(makeHttpClient(),makeApiUrl(""))
+    return new MovieRepository(makeHttpClient(),makeHttpClient(),makeApiUrl(""))
 }

@@ -25,3 +25,4 @@ export type HttpRequest = {
     statusCode: HttpStatusCode
     body?: T
   }
+

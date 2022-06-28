@@ -1,3 +1,4 @@
+import { IHttpClient } from "../../../data/interfaces/IHttpClient"
 import { HttpClient } from"../../../infra/http"
 
-export const makeHttpClient = (): HttpClient => new HttpClient()
+export const makeHttpClient = (): IHttpClient => new HttpClient()

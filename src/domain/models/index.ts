@@ -1,1 +1,1 @@
-export * from './MovieModel'
+export * from './MovieType'

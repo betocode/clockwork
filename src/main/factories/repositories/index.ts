@@ -1,1 +1,1 @@
-export * from './makeMovieRepository'
+export * from './makeMovieRepositoryFactory'

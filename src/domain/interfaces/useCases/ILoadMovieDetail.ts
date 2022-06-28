@@ -1,7 +1,7 @@
-import {MovieModel} from "../../../domain/models";
+import {MovieType} from "../../../domain/models";
 
 export interface IFindMovie {
-    find:(params:FindMovie.Params) => Promise<MovieModel>
+    find:(params:FindMovie.Params) => Promise<MovieType>
 }
 
 

@@ -1,25 +1,14 @@
 import React from "react";
 
-import { Home } from "../presentation/pages";
+import Home from "../presentation/pages/home";
+import MakeMovieFilterContext from "./factories/context/makeMovieFilterProvider";
+import AppRoutes from "./routes/routes";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Home />
-      </header>
-    </div>
+    <MakeMovieFilterContext>
+      <AppRoutes />
+    </MakeMovieFilterContext>
   );
 }
 
